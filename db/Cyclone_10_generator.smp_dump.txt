@@ -1,0 +1,14 @@
+
+State Machine - |main|serdes_logic:serdes_inst|tx_test_state
+Name tx_test_state.TX_TEST_PROCEED 
+tx_test_state.TX_TEST_IDLE 0 
+tx_test_state.TX_TEST_PROCEED 1 
+
+State Machine - |main|serdes_logic:serdes_inst|state
+Name state.R_ERROR state.R_READY state.R_COMPAIRE state.R_WAIT state.R_PULSE state.R_IDLE 
+state.R_IDLE 0 0 0 0 0 0 
+state.R_PULSE 0 0 0 0 1 1 
+state.R_WAIT 0 0 0 1 0 1 
+state.R_COMPAIRE 0 0 1 0 0 1 
+state.R_READY 0 1 0 0 0 1 
+state.R_ERROR 1 0 0 0 0 1 

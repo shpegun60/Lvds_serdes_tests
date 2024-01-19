@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\admin\Documents\FPGA\Cyclone_10_generator\rtl\stp\stp.qsys --block-symbol-file --output-directory=C:\Users\admin\Documents\FPGA\Cyclone_10_generator\rtl\stp\stp --family="Cyclone 10 LP" --part=10CL010YU256C8G
+Progress: Loading stp/stp.qsys
+Progress: Reading input file
+Progress: Adding signaltap_ii_logic_analyzer_0 [altera_signaltap_ii_logic_analyzer 22.1]
+Progress: Parameterizing module signaltap_ii_logic_analyzer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\admin\Documents\FPGA\Cyclone_10_generator\rtl\stp\stp.qsys --synthesis=VERILOG --output-directory=C:\Users\admin\Documents\FPGA\Cyclone_10_generator\rtl\stp\stp\synthesis --family="Cyclone 10 LP" --part=10CL010YU256C8G
+Progress: Loading stp/stp.qsys
+Progress: Reading input file
+Progress: Adding signaltap_ii_logic_analyzer_0 [altera_signaltap_ii_logic_analyzer 22.1]
+Progress: Parameterizing module signaltap_ii_logic_analyzer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: stp: Generating stp "stp" for QUARTUS_SYNTH
+Info: signaltap_ii_logic_analyzer_0: "stp" instantiated altera_signaltap_ii_logic_analyzer "signaltap_ii_logic_analyzer_0"
+Info: stp: Done "stp" with 2 modules, 1 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
