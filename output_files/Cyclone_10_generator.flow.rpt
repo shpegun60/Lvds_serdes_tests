@@ -1,5 +1,5 @@
 Flow report for Cyclone_10_generator
-Fri Jan 19 17:13:38 2024
+Mon Jan 22 18:34:56 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Standard Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------------+
 ; Flow Summary                                                                            ;
 +------------------------------------+----------------------------------------------------+
-; Flow Status                        ; Successful - Fri Jan 19 17:13:38 2024              ;
+; Flow Status                        ; Successful - Mon Jan 22 18:34:56 2024              ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Standard Edition ;
 ; Revision Name                      ; Cyclone_10_generator                               ;
 ; Top-level Entity Name              ; main                                               ;
@@ -693,7 +693,25 @@ https://fpgasoftware.intel.com/eula.
 ; Assembler            ; 00:00:02     ; 1.0                     ; 4705 MB             ; 00:00:02                           ;
 ; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 4776 MB             ; 00:00:03                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4652 MB             ; 00:00:01                           ;
-; Total                ; 00:50:21     ; --                      ; --                  ; 01:18:19                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4746 MB             ; 00:00:31                           ;
+; Partition Merge      ; 00:00:02     ; 1.0                     ; 4720 MB             ; 00:00:01                           ;
+; Fitter               ; 00:00:10     ; 1.0                     ; 5434 MB             ; 00:00:07                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4708 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 4768 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4655 MB             ; 00:00:01                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4746 MB             ; 00:00:26                           ;
+; Partition Merge      ; 00:00:02     ; 1.0                     ; 4725 MB             ; 00:00:01                           ;
+; Fitter               ; 00:00:07     ; 1.0                     ; 5437 MB             ; 00:00:07                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4708 MB             ; 00:00:01                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4772 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4655 MB             ; 00:00:01                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4746 MB             ; 00:00:28                           ;
+; Partition Merge      ; 00:00:02     ; 1.0                     ; 4725 MB             ; 00:00:01                           ;
+; Fitter               ; 00:00:05     ; 1.0                     ; 5433 MB             ; 00:00:06                           ;
+; Assembler            ; 00:00:01     ; 1.0                     ; 4708 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4776 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4655 MB             ; 00:00:01                           ;
+; Total                ; 00:51:47     ; --                      ; --                  ; 01:20:23                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -1269,6 +1287,24 @@ https://fpgasoftware.intel.com/eula.
 ; Assembler            ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Partition Merge      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Partition Merge      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Partition Merge      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-Q6OHLG8  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -1800,6 +1836,24 @@ quartus_asm --read_settings_files=off --write_settings_files=off Cyclone_10_gene
 quartus_sta Cyclone_10_generator -c Cyclone_10_generator
 quartus_eda --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
 quartus_map --read_settings_files=on --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_map --read_settings_files=on --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_cdb --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_asm --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_sta Cyclone_10_generator -c Cyclone_10_generator
+quartus_eda --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_map --read_settings_files=on --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_cdb --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_asm --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_sta Cyclone_10_generator -c Cyclone_10_generator
+quartus_eda --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_map --read_settings_files=on --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_cdb --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_asm --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
+quartus_sta Cyclone_10_generator -c Cyclone_10_generator
+quartus_eda --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
 quartus_map --read_settings_files=on --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator
 quartus_cdb --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator --merge=on
 quartus_fit --read_settings_files=off --write_settings_files=off Cyclone_10_generator -c Cyclone_10_generator

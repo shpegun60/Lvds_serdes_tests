@@ -1,14 +1,14 @@
-Partition Merge Status : Successful - Fri Jan 19 17:13:18 2024
+Partition Merge Status : Successful - Mon Jan 22 18:34:37 2024
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Standard Edition
 Revision Name : Cyclone_10_generator
 Top-level Entity Name : main
 Family : Cyclone 10 LP
-Total logic elements : 178
-    Total combinational functions : 117
-    Dedicated logic registers : 125
+Total logic elements : 179 / 10,320 ( 2 % )
+    Total combinational functions : 118 / 10,320 ( 1 % )
+    Dedicated logic registers : 125 / 10,320 ( 1 % )
 Total registers : 127
-Total pins : 27
+Total pins : 27 / 177 ( 15 % )
 Total virtual pins : 0
-Total memory bits : 20
-Embedded Multiplier 9-bit elements : 0
-Total PLLs : 2
+Total memory bits : 20 / 423,936 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 2 / 2 ( 100 % )

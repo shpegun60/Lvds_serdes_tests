@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 22.1std.0 Build 915 10/25/2022 SC Standard Edition"
 
-// DATE "01/19/2024 17:13:38"
+// DATE "01/22/2024 18:34:56"
 
 // 
 // Device: Altera 10CL010YU256C8G Package UFBGA256
@@ -76,7 +76,6 @@ input 	i_lvds_rx;
 // i_rx[0]	=>  Location: PIN_N1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
 // i_rx[1]	=>  Location: PIN_P1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
 // i_clk_lvds	=>  Location: PIN_A10,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
-// o_lvds_tx	=>  Location: PIN_R16,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 8mA
 // io_dq[0]	=>  Location: PIN_R7,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 2mA
 // io_dq[1]	=>  Location: PIN_R8,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 2mA
 // io_dq[2]	=>  Location: PIN_T5,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: 2mA
@@ -89,6 +88,7 @@ input 	i_lvds_rx;
 // i_lvds_rx	=>  Location: PIN_P16,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
 // i_rstn	=>  Location: PIN_J15,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
 // i_clk50MHz	=>  Location: PIN_E2,	 I/O Standard: 3.3-V LVCMOS,	 Current Strength: Default
+// o_lvds_tx	=>  Location: PIN_R16,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 8mA
 
 
 wire gnd;
@@ -315,56 +315,62 @@ wire \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg12|s
 wire \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg12|shift_reg~2_combout ;
 wire \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg12|shift_reg~1_combout ;
 wire \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg12|shift_reg~0_combout ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe6a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_2cout ;
-wire [4:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg13|shift_reg ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|ddio_out|wire_ddio_outa_dataout ;
-wire [15:0] \serdes_inst|test_error_counter ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_0combout ;
-wire [4:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk ;
-wire [9:0] \serdes_inst|tx_data ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_0cout ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe4a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_1cout ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe3a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_1combout ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe5a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_2combout ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe8a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_3cout ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe7a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_3combout ;
-wire [9:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|rx_reg ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_0cout ;
-wire [4:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|l_shiftreg1a ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_0combout ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_1cout ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_1combout ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_2cout ;
-wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_2combout ;
-wire [5:0] \serdes_inst|r_error_counter ;
 wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|ddio_l_reg ;
+wire [4:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk ;
 wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|ddio_h_reg ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|ddio_out|wire_ddio_outa_dataout ;
+wire [4:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg13|shift_reg ;
+wire [5:0] \serdes_inst|r_error_counter ;
 wire [4:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|shift_reg12|shift_reg ;
-wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|counter_reg_bit ;
-wire [4:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|h_shiftreg2a ;
-wire [0:0] \serdes_inst|tx_data_last1_rtl_0|auto_generated|cntr1|counter_reg_bit ;
-wire [9:0] \serdes_inst|lvds_tx_in ;
-wire [1:0] \serdes_inst|tx_data_last1_rtl_0|auto_generated|cntr3|counter_reg_bit ;
-wire [3:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|cda_h_shiftreg3a ;
-wire [4:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|cda_l_shiftreg4a ;
-wire [3:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|counter_reg_bit ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|l_dffpipe|dffe8a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|h_dffpipe|dffe8a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|l_dffpipe|dffe7a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|h_dffpipe|dffe7a ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|dataout_h_reg ;
-wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|dataout_l_reg ;
 wire [2:0] \serdes_inst|r_wait_cnt ;
 wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|dataout_l_latch ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|dataout_l_reg ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|ddio_in|dataout_h_reg ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_2combout ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe5a ;
+wire [4:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|h_shiftreg2a ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|counter_reg_bit ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_2cout ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe6a ;
+wire [9:0] \serdes_inst|lvds_tx_in ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|h_dffpipe|dffe7a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|l_dffpipe|dffe7a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_1combout ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe3a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_3combout ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe7a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_1cout ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe4a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_3cout ;
+wire [2:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|dffe8a ;
+wire [4:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|cda_l_shiftreg4a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|h_dffpipe|dffe8a ;
+wire [3:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|cda_h_shiftreg3a ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|l_dffpipe|dffe8a ;
+wire [3:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|counter_reg_bit ;
+wire [1:0] \serdes_inst|tx_data_last1_rtl_0|auto_generated|cntr3|counter_reg_bit ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_0combout ;
+wire [4:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|l_shiftreg1a ;
+wire [9:0] \serdes_inst|tx_data ;
+wire [0:0] \serdes_inst|tx_data_last1_rtl_0|auto_generated|cntr1|counter_reg_bit ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_0cout ;
+wire [9:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|rx_reg ;
+wire [15:0] \serdes_inst|test_error_counter ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_2cout ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_2combout ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_1cout ;
+wire [0:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|cntr2|wire_counter_comb_bita_1combout ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_0cout ;
+wire [0:0] \serdes_inst|lvds_rx_inst|ALTLVDS_RX_component|auto_generated|bitslip_cntr|wire_counter_comb_bita_0combout ;
 
-wire [35:0] \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus ;
 wire [4:0] \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus ;
+wire [35:0] \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus ;
+
+assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|fast_clock  = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [0];
+assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|tx_coreclock  = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [1];
+assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk [2] = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [2];
+assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk [3] = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [3];
+assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk [4] = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [4];
 
 assign \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0~portbdataout  = \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus [0];
 assign \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a1  = \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus [1];
@@ -376,12 +382,6 @@ assign \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a6 
 assign \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a7  = \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus [7];
 assign \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a8  = \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus [8];
 assign \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a9  = \serdes_inst|tx_data_last1_rtl_0|auto_generated|altsyncram2|ram_block5a0_PORTBDATAOUT_bus [9];
-
-assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|fast_clock  = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [0];
-assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|tx_coreclock  = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [1];
-assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk [2] = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [2];
-assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk [3] = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [3];
-assign \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|wire_lvds_tx_pll_clk [4] = \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|lvds_tx_pll_CLK_bus [4];
 
 // Location: IOOBUF_X34_Y10_N2
 cyclone10lp_io_obuf \o_led[0]~output (
@@ -526,19 +526,6 @@ defparam \o_tx[1]~output .bus_hold = "false";
 defparam \o_tx[1]~output .open_drain_output = "false";
 // synopsys translate_on
 
-// Location: IOOBUF_X34_Y5_N16
-cyclone10lp_io_obuf \o_lvds_tx~output (
-	.i(\serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|ddio_out|wire_ddio_outa_dataout [0]),
-	.oe(vcc),
-	.seriesterminationcontrol(16'b0000000000000000),
-	.devoe(devoe),
-	.o(o_lvds_tx),
-	.obar());
-// synopsys translate_off
-defparam \o_lvds_tx~output .bus_hold = "false";
-defparam \o_lvds_tx~output .open_drain_output = "false";
-// synopsys translate_on
-
 // Location: IOOBUF_X11_Y0_N2
 cyclone10lp_io_obuf \io_dq[0]~output (
 	.i(vcc),
@@ -654,6 +641,19 @@ cyclone10lp_io_obuf \io_rwds~output (
 // synopsys translate_off
 defparam \io_rwds~output .bus_hold = "false";
 defparam \io_rwds~output .open_drain_output = "true";
+// synopsys translate_on
+
+// Location: IOOBUF_X34_Y5_N16
+cyclone10lp_io_obuf \o_lvds_tx~output (
+	.i(\serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|ddio_out|wire_ddio_outa_dataout [0]),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(o_lvds_tx),
+	.obar());
+// synopsys translate_off
+defparam \o_lvds_tx~output .bus_hold = "false";
+defparam \o_lvds_tx~output .open_drain_output = "false";
 // synopsys translate_on
 
 // Location: IOIBUF_X0_Y11_N1
@@ -783,7 +783,7 @@ cyclone10lp_clkctrl \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generate
 	.outclk(\serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|tx_coreclock~clkctrl_outclk ));
 // synopsys translate_off
 defparam \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|tx_coreclock~clkctrl .clock_type = "global clock";
-defparam \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|tx_coreclock~clkctrl .ena_register_mode = "none";
+defparam \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|tx_coreclock~clkctrl .ena_register_mode = "falling edge";
 // synopsys translate_on
 
 // Location: LCCOMB_X28_Y9_N12
@@ -1501,7 +1501,7 @@ cyclone10lp_clkctrl \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generate
 	.outclk(\serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|fast_clock~clkctrl_outclk ));
 // synopsys translate_off
 defparam \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|fast_clock~clkctrl .clock_type = "global clock";
-defparam \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|fast_clock~clkctrl .ena_register_mode = "none";
+defparam \serdes_inst|lvds_tx_inst|ALTLVDS_TX_component|auto_generated|fast_clock~clkctrl .ena_register_mode = "falling edge";
 // synopsys translate_on
 
 // Location: LCCOMB_X31_Y6_N6

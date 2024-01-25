@@ -1,5 +1,4 @@
 /************ This is top file **************/
-//https://community.intel.com/t5/FPGA-Wiki/Cyclone-V-ALTLVDS-Design-Example/ta-p/735385
 module main
 (
    //Clock / reset
